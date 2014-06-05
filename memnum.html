@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/2.3.2/examples/signin.html -->
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Memorable Number</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <!-- Le styles -->
+        <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css" rel="stylesheet">
+        <style type="text/css">
+          body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #f5f5f5;
+          }
+    
+          .form-signin {
+            max-width: 300px;
+            padding: 19px 29px 29px;
+            margin: 0 auto 20px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            -webkit-border-radius: 5px;
+               -moz-border-radius: 5px;
+                    border-radius: 5px;
+            -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+               -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          }
+
+    
+        </style>
+        
+        <script src="./memnum.js"></script>
+        <script src="https://rawgithubusercontent.com/osteele/functional-javascript/master/functional.js"></script>
+
+    </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="form-signin">
+        <h4 class="form-signin-heading">Please Enter Your Phone Number</h4>
+        <input id="phonenumber" type="text" placeholder="Phone number">
+        <input id="output" type="text" >
+
+        <button id="memnum" class="btn btn-large btn-primary" onclick="genmn()">Mem-num</button>
+        <button  class="btn btn-info" onclick="clearfield()">Clear</button>
+      </div>
+
+    </div> <!-- /container -->
+  
+
+</body></html>
