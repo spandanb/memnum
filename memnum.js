@@ -28,7 +28,7 @@ filter = function(func, arr){
 //          0      1           2                3                 4            5                 
 numap = [["o"], ["l"],  ["a","b","c"], ["d","e", "f"], ["g", "h", "i"], ["j", "k"],
 //             6               7              8                   9
-          ["m", "n"], ["p","q", "r"], ["s","t","u"], ["v", "x", "y","z"]]         
+          ["m", "n"], ["p","q", "r"], ["s","t","u"], ["v", "x", "y","z"]] 
           
 //TODO: Make smarter
 getPhrase = function(num){
